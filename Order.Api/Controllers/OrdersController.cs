@@ -9,8 +9,9 @@ namespace Order.Api.Controllers
     public class OrdersController : ControllerBase
     {
         [HttpGet]
-        public IEnumerable<CustomerOrder> GetOrders()
+        public async Task<IEnumerable<CustomerOrder>>  GetOrders()
         {
+            await Task.Delay(4000);
             var orders = new List<CustomerOrder>();
             orders.AddRange(new List<CustomerOrder>
             {

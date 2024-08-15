@@ -13,8 +13,9 @@ namespace Products.Api.Controllers
         };
 
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
+            await Task.Delay(4000);
             return Ok(Products);
         }
     }
