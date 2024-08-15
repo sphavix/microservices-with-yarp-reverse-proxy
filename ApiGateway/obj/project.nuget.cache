@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "a/VXQ/2JRTW8yea0tZl51wnTwzPPvIQOdEPwgfvOB5JpXTnWK5I5f9bhBJsYH5893OznT8RJzs1avyIhcp5dhw==",
+  "success": true,
+  "projectFilePath": "H:\\DevOps\\Learning\\.NETProjects\\microservices-yarp-gateway\\ApiGateway\\ApiGateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\siphamandla.zolakhe\\.nuget\\packages\\system.io.hashing\\7.0.0\\system.io.hashing.7.0.0.nupkg.sha512",
+    "C:\\Users\\siphamandla.zolakhe\\.nuget\\packages\\yarp.reverseproxy\\2.1.0\\yarp.reverseproxy.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
